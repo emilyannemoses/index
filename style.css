@@ -1,60 +1,104 @@
 * {
-    font-weight: 300;
-    font-family: Avenir;
-  }
-  
-  html {
-    background: url(./images/websitebackground.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  
+  font-weight: 300;
+  font-family: Avenir;
+}
+
+html {
+  background: url(./images/websitebackground.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container {
+  height: auto;
+  width: auto;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+                        "pic pic pic"
+                        "h1 h1 h1"
+                        "h2 h2 h2"
+                        "button button button";
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav > a {
+  height: auto;
+  width: auto;
+  color: white;
+  font-size: 14px;
+  background: transparent;
+  text-decoration: none;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+}
+
+.profile-pic {
+  grid-area: pic;
+  width: 150px;
+  height: 200px;
+  border: 10px solid white;
+  margin: 50px auto;
+}
+
+h1 {
+  grid-area: h1;
+  color:white;
+  margin: auto;
+}
+
+h2 {
+  grid-area: h2;
+  margin: auto;
+  font-style: italic;
+  color: white;
+}
+
+button {
+  grid-area: button;
+  margin: 50px auto;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  background: transparent;
+  color: white;
+  letter-spacing: 10px;
+  font-style: italic;
+  border: 10px solid white;
+}
+
+@media (max-width: 860px) {
   .logo {
     width: 50px;
     height: 50px;
   }
-  
-  header {
-    display: grid;
-    grid-template-columns: 50% 50%;
-  }
-  
-  .container {
-    height: auto;
-    width: auto;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas:
-                          "pic pic pic"
-                          "h1 h1 h1"
-                          "h2 h2 h2"
-                          "button button button";
-  }
-  
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  
+
   nav > a {
-    height: auto;
-    width: auto;
-    color: white;
-    font-size: 14px;
-    background: transparent;
-    text-decoration: none;
-    margin: auto;
+    text-align: center;
   }
-  
-  nav {
-    display: flex;
-    justify-content: flex-end;
-    width: auto;
-  }
-  
+
   .profile-pic {
     grid-area: pic;
     width: 150px;
@@ -62,75 +106,31 @@
     border: 10px solid white;
     margin: 50px auto;
   }
-  
+
   h1 {
     grid-area: h1;
     color:white;
     margin: auto;
   }
-  
+
   h2 {
     grid-area: h2;
     margin: auto;
     font-style: italic;
     color: white;
+    padding-top: 50px;
   }
-  
+
   button {
-    grid-area: button;
-    margin: 50px auto;
     width: auto;
     height: auto;
+    font-family: Avenir;
     font-size: 20px;
     background: transparent;
     color: white;
     letter-spacing: 10px;
     font-style: italic;
     border: 10px solid white;
-  }
-  
-  @media (max-width: 860px) {
-    .logo {
-      width: 50px;
-      height: 50px;
+    margin: 50px auto;
     }
-  
-    nav > a {
-      text-align: center;
-    }
-  
-    .profile-pic {
-      grid-area: pic;
-      width: 150px;
-      height: 200px;
-      border: 10px solid white;
-      margin: 50px auto;
-    }
-  
-    h1 {
-      grid-area: h1;
-      color:white;
-      margin: auto;
-    }
-  
-    h2 {
-      grid-area: h2;
-      margin: auto;
-      font-style: italic;
-      color: white;
-      padding-top: 50px;
-    }
-  
-    button {
-      width: auto;
-      height: auto;
-      font-family: Avenir;
-      font-size: 20px;
-      background: transparent;
-      color: white;
-      letter-spacing: 10px;
-      font-style: italic;
-      border: 10px solid white;
-      margin: 50px auto;
-      }
-  }
+}
