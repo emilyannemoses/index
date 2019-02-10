@@ -71,6 +71,7 @@ h2 {
 .button {
   grid-area: button;
   margin: 50px auto;
+  padding: 5px;
   width: auto;
   height: auto;
   font-size: 20px;
