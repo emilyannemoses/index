@@ -70,7 +70,7 @@ p {
     opacity: 1;
 }
 
-@media only screen and (max-width: 455px) {
+@media (max-width: 641px) {
     .tabs {
         margin-top: 20px;
     }
@@ -88,4 +88,5 @@ p {
         cursor: pointer;
         font-size: 12px;
     }
+
 }
