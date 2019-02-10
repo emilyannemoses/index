@@ -65,6 +65,7 @@ h2 {
   margin: auto;
   font-style: italic;
   color: white;
+  background: transparent;
 }
 
 button {
@@ -106,6 +107,7 @@ button {
     font-style: italic;
     color: white;
     padding-top: 50px;
+    background: transparent;
   }
 
   button {
