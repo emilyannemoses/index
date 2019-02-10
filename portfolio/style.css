@@ -108,4 +108,14 @@ p {
         font-size: 9px;
     }
 
+    .image img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .image iframe {
+        height: 200px;
+        width: 300px;
+    }
+
 }
