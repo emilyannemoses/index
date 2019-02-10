@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>
+    Circle Sudoku
+  </title>
+  <link rel="icon" href="http://images.clipshrine.com/download/wheel/large-red-bubble-66.6-6141.png"/>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+  <h1>
+    Circle Sudoku
+  </h1>
+  <div class="buttonPanel" id="btns">
+    <button onclick = "openPopup()">Objective</button>
+    <button onclick = "easyButton()">Easy</button>
+    <button onclick="mediumButton()">Medium</button>
+    <button onclick="hardButton()">Hard</button>
+  </div>
+  <div class="general">
+    <div id="objective" class="popup hidden">
+      <button onclick="cancel()">Close</button>
+      <h2>
+        Sudoku is defined as a logic-based, number-placement puzzle. The objective is to fill a 9 by 9 grid with digits in such a way that each column, each row, and each of the nine 3 by 3 grids that make up the larger 9 by 9 grid contains each of the digits from 1 to 9.
+      </h2>
+        </div>
+      </div>
+  <div class="container" id="contain"></div>
+  <script src="./script.js"></script>
+</body>
+<footer>
+  | &copy; 2015 | Emily Anne Moses  |
+</footer>
+</html>
