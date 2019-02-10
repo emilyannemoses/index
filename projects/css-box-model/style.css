@@ -1,0 +1,47 @@
+* {
+    margin: auto;
+    font-family: Avenir;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    text-align: center;
+    padding: 15px;
+}
+
+.background-image img{
+    width: 100%;
+}
+
+.image {
+    display: inline-block;
+    margin: 20px;
+}
+
+.image img {
+    height: 300px;
+    width: 350px;
+}
+
+.image-container {
+    margin: 40px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    height: 100px;
+}
+
+@media ( max-width: 550px ) {
+    .image img {
+        height: 200px;
+        width: 250px;
+    }
+}

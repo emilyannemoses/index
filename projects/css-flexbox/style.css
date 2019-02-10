@@ -1,0 +1,52 @@
+body {
+    margin: auto;
+    background-color: black;
+    font-family: Avenir;
+    font-weight: lighter;
+    color: white;
+  }
+  
+  header {
+    text-align: center;
+    font-size: 25px;
+    padding: 1%;
+    margin: auto;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-height: 800px;
+  }
+  
+  .image {
+    margin: auto;
+    text-align: center;
+    opacity: 0.7;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  p {
+    text-align: left;
+  }
+  
+  .image:hover  {
+      opacity: 1;
+    }
+  
+  @media ( min-width : 600px ){
+      .container {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      max-height: 800px;
+      }
+    .image {
+      width: 28%;
+    }
+  }
