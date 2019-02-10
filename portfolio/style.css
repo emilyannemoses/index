@@ -56,6 +56,10 @@ a {
     color:black;
 }
 
+.image img {
+    border: 1px solid black;
+}
+
 p {
     text-align: left;
     padding: 50px;
