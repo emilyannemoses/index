@@ -1,0 +1,17 @@
+body{
+    margin: 10% 20% auto;
+}
+
+.myPictures{
+    height: 100px;
+    width: 100px;
+    border: 2px solid grey;
+    margin: 5px 5px auto;
+}
+
+.heading {
+    font-family: Avenir;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+}
