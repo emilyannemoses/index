@@ -68,7 +68,7 @@ h2 {
   background: transparent;
 }
 
-button {
+.button {
   grid-area: button;
   margin: 50px auto;
   width: auto;
@@ -110,7 +110,7 @@ button {
     background: transparent;
   }
 
-  button {
+  .button {
     width: auto;
     height: auto;
     font-family: Avenir;
