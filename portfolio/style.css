@@ -77,6 +77,8 @@ a {
 
 .image img {
     border: 1px solid black;
+    height: 190px;
+    width: 300px;
 }
 
 p {

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- set viewport to device width to help make site responsive -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Typeface Race!</title>
+  <!-- tab icon -->
+  <link rel="shortcut icon" href="images/icon.png"/>
+
+  <!-- bootstrap css -->
+  <!-- <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> -->
+
+  <!-- custom styles -->
+  <link rel="stylesheet" type="text/css" href="./style.css">
+
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <!-- custom script -->
+  <script type="text/javascript" src="./app.js"></script>
+
+</head>
+
+<body>
+  <!-- header will hold the name of the game, objective button and replay button -->
+  <header class = "header">
+    <h1>Typeface Race!</h1>
+    <div class = "buttonPanel">
+    <button name = "button" class = "objective">Objective</button>
+    <button name = "button" class = "replay">New Game</button>
+    <div class="general">
+        <div class="col-md-6 col-md-offset-3 popup hidden">
+            <button name = "button" class = "close">Close</button>
+              <h2>
+                <p>OBJECTIVE:</p>
+                <p>Welcome to the Typeface Race!</p>
+                <p>Who will win: Garamond or Avenir?</p>
+                <p>Press the A key to move Avenir forward,</p>
+                <p>and press the G key to move Garamond.</p>
+                <p>The first one to the finish line WINS!</p>
+                <p>GOOD LUCK!</p>
+              </h2>
+        </div>
+    </div>
+  </div>
+</header>
+<div class = "someoneWins hidden">
+      <button name = "btn" class = "winClose">Close</button>
+        <h2 class = "addText">
+        </h2>
+</div>
+  <!-- following SVGs hold the racetrack -->
+  <svg viewbox = "0  0 1300 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <image xlink:href="images/fullRaceTrack.svg" id="raceTrack"  x=0 y=0 />
+    <image xlink:href="images/playerAvenir.svg" id="playerAvenir"  y=22% />
+    <image xlink:href= "images/playerGaramond.svg" id= "playerGaramond"  y=51% />
+    <image xlink:href="images/finishLine.png" id="finishLine" alt="finish" x=90% y=22% />
+  </svg>
+  <!-- the footer -->
+  <footer class = "footer">
+    <p>
+      &copy; 2016 Emily Anne Moses
+    </p>
+  </footer>
+</body>
+</html>

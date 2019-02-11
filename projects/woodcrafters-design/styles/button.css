@@ -1,0 +1,73 @@
+/*INDEX.HTML HEADER BUTTON STYLES*/
+.button{
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid rgb(73, 14, 26);
+    background-color: rgb(18,24,89);
+    opacity: 0.75;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    display: inline-block;
+  }
+  .button:hover{
+    background-color: rgb(73, 14, 26);
+    border-color: rgb(18,24,89);
+  }
+  
+  /*CRAFTS.HTML PURCHASE BUTTON STYLES*/
+  .button-purchase{
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid rgb(73, 14, 26);
+    background-color: rgb(18,24,89);
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    display: inline-block;
+  }
+  .button-purchase:hover{
+    background-color: rgb(73, 14, 26);
+    border-color: rgb(18,24,89);
+  }
+  
+  /*REGISTER.HTML SEND EMAIL BUTTON STYLE*/
+  .emailButton{
+    color: rgb(18,24,89);
+    background-color: transparent;
+    padding: 10px 20px;
+    margin-left: 40%;
+    border: 1px solid #213A82;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .emailButton:hover{
+    background-color: rgb(73, 14, 26);
+    color: white;
+  }
+  
+  @media(max-width: 768px){
+    #center-button{
+      margin-right: 10%;
+      background-color: rgb(18,24,89);
+      border-color: rgb(73, 14, 26);
+    }
+    #center-button:hover{
+      background-color: rgb(73, 14, 26);
+      border-color: rgb(18,24,89);
+    }
+    #myButton{
+      margin-left: 25%;
+    }
+  }
+  @media(max-width: 640px){
+    .button{
+      background-color: rgb(18,24,89);
+    }
+    .button:hover{
+      background-color: rgb(73, 14, 26);
+    }
+    .registerContainer{
+      padding: 10px;
+      width: 70%;
+    }
+  }

@@ -1,0 +1,132 @@
+.spinner {
+    height: 50px;
+    width: 50px;
+    margin: 50px auto;
+    position: relative;
+    animation: invert 1s*2 infinite steps(2,end);
+  }
+  
+  .ball {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    background: rgb(255, 120, 60);
+  }
+  
+  .ball-1 {
+    animation: ball1 1s infinite alternate linear;
+  }
+  .ball-2 {
+    animation: ball2 1s infinite alternate linear;
+  }
+  .ball-3 {
+    animation: ball3 1s infinite alternate linear;
+  }
+  .ball-4 {
+    animation: ball4 1s infinite alternate linear;
+  }
+  
+  @keyframes invert {
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+  
+  @keyframes ball1{
+    12% {
+      transform: none;
+    }
+    26% {
+      transform: translateX(50% / 2) scale(1, .8)
+    }
+    40% {
+      transform: translateX(50%) scale(.8, .8);
+    }
+    60% {
+      transform: translateX(50%) scale(.8, .8);
+    }
+    74% {
+      transform: translate(50%, 50% / 2) scale(.6, .8)
+    }
+    88% {
+      transform: translate(50%, 50%) scale(.6, .6);
+    }
+    100% {
+      transform: translate(50%, 50%) scale(.6, .6);
+    }
+  }
+  
+  @keyframes ball2{
+    12% {
+      transform: none;
+    }
+    26% {
+      transform: translateX(50% / 2) scale(1, .8)
+    }
+    40% {
+      transform: translateX(50%) scale(.8, .8);
+    }
+    60% {
+      transform: translateX(50%) scale(.8, .8);
+    }
+    74% {
+      transform: translate(50%, -50% / 2) scale(.6, .8)
+    }
+    88% {
+      transform: translate(50%, -50%) scale(.6, .6);
+    }
+    100% {
+      transform: translate(50%, -50%) scale(.6, .6);
+    }
+  }
+  
+  @keyframes ball3{
+    12% {
+      transform: none;
+    }
+    26% {
+      transform: translateX(-50% / 2) scale(1, .8)
+    }
+    40% {
+      transform: translateX(-50%) scale(.8, .8);
+    }
+    60% {
+      transform: translateX(-50%) scale(.8, .8);
+    }
+    74% {
+      transform: translate(-50%, 50% / 2) scale(.6, .8)
+    }
+    88% {
+      transform: translate(-50%, 50%) scale(.6, .6);
+    }
+    100% {
+      transform: translate(-50%, 50%) scale(.6, .6);
+    }
+  }
+  
+  @keyframes ball4{
+    12% {
+      transform: none;
+    }
+    26% {
+      transform: translateX(-50%n / 2) scale(1, .8)
+    }
+    40% {
+      transform: translateX(-50%) scale(.8, .8);
+    }
+    60% {
+      transform: translateX(-50%) scale(.8, .8);
+    }
+    74% {
+      transform: translate(-50%, -50%n / 2) scale(.6, .8)
+    }
+    88% {
+      transform: translate(-50%, -50%) scale(.6, .6);
+    }
+    100% {
+      transform: translate(-50%, -50%) scale(.6, .6);
+    }
+  }

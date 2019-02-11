@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Woodcrafters Design</title>
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="stylesheet" type="text/css" href="./styles/header.css">
+    <link rel="stylesheet" type="text/css" href="./styles/button.css">
+    <link rel="stylesheet" type="text/css" href="./styles/register.css">
+  </head>
+  <body>
+    <header>
+      <a href="./index.html" width="200" height="55" id="logo">Woodcrafters Design
+      </a>
+      <nav>
+        <ol>
+          <li><a href="./crafts.html" id="center-button" class="button">Crafts</a></li>
+        </ol>
+      </nav>
+    </header>
+    <section class="registerContainer">
+      <h1>Kindly register to receive emails regarding new products!</h1>
+      <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwvRE5OLkgPOdO52BshpG0re4RfYNn-Rqd2-35uvFRMIMddexM/exec">
+        <ol>
+          <li>
+            <label for="first_name">First Name</label>
+            <input type="text" id="first_name" placeholder="Emily" autofocus required/>
+          </li>
+          <li>
+            <label for="last_name">Last Name</label>
+            <input type="text" id="last_name" placeholder="Moses" required/>
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea type="text" id="message" placeholder="What would you like us to know?"></textarea>
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="emily.moses@example.com" required/>
+            <span id="email-invalid" style="visibility:hidden">Must be a valid email address</span>
+          </li>
+          <!-- <li>
+            <label for="password">Password</label>
+            <input type="password" id="password" required>
+          </li> -->
+          <!-- <li>
+            <input type="checkbox" id="terms" required>
+            <label>Agree to our <a href="#">terms of service</a></label>
+          </li> -->
+          <li>
+            <button onclick="" id="myButton" class="emailButton" value="Send Email">Send Email</button>
+          </li>
+        </ol>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <a href="https://instagram.com/woodcraftersdesign/" target="_blank">View all of Woodcrafters Design's creative work on Instagram!</a>
+      <p></p>
+      <span>&copy; 2016 Made With Love by <a href="http://www.emilyannemoses.com" target="_blank"> Emily Anne Moses</a></span>
+    </footer>
+
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+        location.href = "http://eamoses.github.io/portfolio/front-end-developer-projects/woodcrafters-design/index.html";
+        };
+    </script>
+  </body>
+</html>

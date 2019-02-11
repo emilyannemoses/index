@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    font-size: 0;
+  }
+  div.colorPicker{
+    margin-left: 35%;
+    margin-top: 1%;
+    z-index: 9999;
+    font-family: Avenir;
+    font-size: 16px;
+  }
+  button{
+    height: 25px;
+    width: 97px;
+    margin-left: 190px;
+    margin-top: 10px;
+    z-index: 0;
+    font-family: Avenir;
+    font-size: 13px;
+  }
+  input{
+    width: 90px;
+    height: 25px;
+  }
+  div#target{
+    height: 545px;
+    width: 970px;
+    border: 5px solid darkgrey;
+    margin-left: 10%;
+    margin-right: 5%;
+    z-index: 0;
+  }
+  div.divBox{
+    border: 1px solid;
+    border-color: transparent;
+    height: 15px;
+    width: 15px;
+    display:inline-table;
+  }

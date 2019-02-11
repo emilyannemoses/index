@@ -1,0 +1,29 @@
+.crafts li {
+    overflow: auto;
+    margin-top: 1em;
+  }
+  .crafts li:last-child {
+    border-bottom: 0;
+  }
+  .crafts img {
+    max-width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid darkgrey;
+  }
+  .crafts p,
+  .crafts {
+    margin-bottom: 1em;
+  }
+  .craftsContainer{
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 3%;
+    overflow: scroll;
+    padding: 15px 15px 15px 15px;
+    width: 75%;
+    height: 75%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #C7C7C7;
+  }

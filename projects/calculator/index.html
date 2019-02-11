@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculators</title>
+    <link rel="stylesheet" href="./style.css" media="screen">
+<header>
+  Emily's Conversion Calculators
+</header>
+</head>
+<body>
+    <h1>Fahrenheit to Celcius</h1>
+
+    <div class="panel temp">
+      <input type="text" class="temp-f" placeholder="℉">⇄
+      <input type="text" class="temp-c" placeholder="℃">
+    </div>
+
+    <h1>Radius to Circumference</h1>
+
+    <div class="panel circum">
+      <div class="circle">
+      </div>
+      <input type="text" class="circum-r" placeholder="radius">
+      <input type="text" class="circum-c" placeholder="circumference" disabled>
+    </div>
+
+    <h1>Pythagorean Theorem</h1>
+    <p>
+      <ul>
+        <li>
+      To get the hypotenuse (C): Insert a number in B, then insert a number in A.
+    </li>
+    <li>
+      To calculate side A: Insert a number in C, then insert a number in B.
+    </li>
+    <li>
+      To calcuate side B: Insert a number in A, then insert a number in C.
+    </li>
+  </ul>
+    </p>
+
+    <div class="panel py">
+      <input type="text" class="py-a" placeholder="A">
+      <input type="text" class="py-b" placeholder="B">
+      <input type="text" class="py-c" placeholder="C">
+    </div>
+
+    <script type="text/javascript" src="./app.js"></script>
+    <script type="text/javascript">
+    function calcFahrenheitToCelcius(F) {
+        var x= F-32;
+        var y= (5/9);
+        var Celcius= x*y;
+        return Celcius;
+      }
+    function calcCelciusToFarenheit(C) {
+      var x= C;
+      var y= (9/5);
+      var z= 32;
+      var Farenheit= (x*y)+32;
+      return Farenheit;
+    }
+    function calcCircumference(radius) {
+      var x= 2;
+      var y= Math.PI;
+      var z= radius;
+      var circumference= x*y*z;
+      return circumference;
+    }
+    function calcLongestSide(A, B) {
+        var x= Math.sqrt;
+        var a= A;
+        var b= B;
+        var y= (a * a);
+        var z= (b * b);
+        var longestSide= x((y)+(z));
+        return longestSide;
+    }
+    function calcSideA(B, C) {
+      var x=Math.sqrt;
+      var q= B;
+      var p= C;
+      var y= (q * q);
+      var z= (p * p);
+      var sideA= x((z)-(y));
+      return sideA;
+    }
+    function calcSideB(A,C) {
+      var x=Math.sqrt;
+      var v= A;
+      var e= C;
+      var y= (e * e);
+      var z= (v * v);
+      var sideB= x((y)-(z));
+      return sideB;
+    } // Your code goes here!
+    </script>
+  </body>
+</html>
