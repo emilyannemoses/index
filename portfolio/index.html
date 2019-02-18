@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
-    <title>Web Dev Portfolio</title>
+    <title>Portfolio</title>
 </head>
 <body>
     <div class="container">
@@ -15,249 +15,169 @@
                 <img src="../images/portfolio/pp-logo-purple.png" class="logo" alt="pair programmers logo">
             </a>
             <a class="nav-link" href="../images/resume/emilyannemoses-resume-2019.pdf" target="_blank">Resume</a>
-            <!-- <a class="nav-link" href="mailto:eamoses@gmail.com?Subject=Impressive%20portfolio!" target="_blank">Contact</a> -->
             <a class="nav-link" href="https://github.com/eamoses" target="_blank">GitHub</a>
-        </div>
+            <a class="nav-link" href="mailto:eamoses@gmail.com?Subject=Impressive%20portfolio!" target="_blank">Contact</a>
+     </div>
         <div class="tabs">
             <span><a href="/index.html">&larr; Home</a></span>
-            <span onclick="toggle_visibility('professional');" style="background-color:slategray;" id="proTab">Profesional Experience</span>
-            <span onclick="toggle_visibility('personal');" id="perTab">Personal Projects</span>
+            <span onclick="toggle_visibility('professional');" style="background-color:transparent;font-weight:600;color:white;" id="proTab">Professional Experience</span>
+            <span onclick="toggle_visibility('personal');" style="color:white;" id="perTab">Personal Projects</span>
+            <span onclick="toggle_visibility('codepen');" style="color:white;" id="penTab">CodePen Playground</span>
         </div>
-        <div id="personal" style="display:none;background-color:slategray;">
-            <div class="image">
-                <a href="https://graph-sense.herokuapp.com/" target="_blank">
-                <img src="../images/project/graphsense.png" alt="graph sense website">
-                <br>
-                GraphSense</a>
-                <p>
-                    MEAN stack application to create graphs with your micro-controller sensor data!
-                </p>
-            </div>
-            <div class="image">
-                <a href="https://github.com/eamoses/run-tracker-python" target="_blank">
-                <img src="../images/project/runtracker.png" alt="run tracker on github">
-                <br>
-                Python Run Tracker</a>
-                <p>
-                    Python integrated with Minimalist GPS Tracker to analyze data on running routes.
-                </p>
-            </div>
-            <div class="image">
-                <a href="https://protected-sea-74069.herokuapp.com/" target="_blank">
-                <img src="../images/project/petfinder.png" alt="lost pet website">
-                <br>
-                Lost Pet App</a>
-                <p>
-                    MERN stack web application to post about lost pets.
-                </p>
-            </div>
-            <div class="image">
-                <a href="https://digestibleplastic.com/#home" target="_blank">
-                <img src="../images/project/digestibleplastic.png" alt="keto diet website">
-                <br>
-                Digestible Plastic</a>
-                <p>
-                    Using Google Sheets and the "GAS" stack to create a dynamic website!
-                </p>
-            </div>
-            <div class="image">
-                <a href="https://whispering-fortress-13524.herokuapp.com/" target="_blank">
-                <img src="../images/project/vagabond.png" alt="vagabond traveler website">
-                <br>
-                Vagabond App</a>
-                <p>
-                    VAGABOND - A web app for travelers. A full stack web application built with Ruby on Rails.
-                </p>
-            </div>
-            <div class="image">
-                <a href="../projects/drag-n-drop/index.html" target="_blank">
-                <img src="../images/project/dragndrop.png" alt="drag and drop photo website">
-                <br>
-                Drag 'n Drop Photo Website</a>
-                <p>
-                    Drag and drop photos to re-arrange their order.
-                </p>
-            </div>
-            <div class="image">
-                <a href="../projects/circle-sudoku/index.html" target="_blank">
-                <img src="../images/project/circlesudoku.png" alt="sudoku game website">
-                <br>
-                Circle Sudoku</a>
-                <p>
-                    The classic Sudoku game played in circles with easy, medium and hard game options.
-                </p>
-            </div>
-            <div class="image">
-                <a href="../projects/woodcrafters-design/index.html" target="_blank">
-                <img src="../images/project/woodcrafters.png" alt="woodcrafters design website">
-                <br>
-                WoodCrafters Design</a>
-                <p>
-                    A creative woodworking company started in my back yard.
-                </p>
-            </div>
+        <div id="codepen" class="codepen" style="display:none;">
             <div class="image">
                 <a href="../projects/artboard/index.html" target="_blank">
                 <img src="../images/project/art.png" alt="artboard website">
                 <br>
                 Sketch Artboard</a>
-                <p>
-                    Choose any color and start drawing!
-                </p>
-            </div>
-            <div class="image">
-                <a href="../projects/typeface-race/index.html" target="_blank">
-                <img src="../images/project/typeface.png" alt="typeface race game website">
-                <br>
-                Typeface Race</a>
-                <p>
-                    Press the A and G keys to race the letters.
-                </p>
-            </div>
-            <div class="image">
-                <a href="../projects/calculator/index.html" target="_blank">
-                <img src="../images/project/calculators.png" alt="conversion calculator website">
-                <br>
-                Conversion Calculator</a>
-                <p>
-                    Calculators to convert Fahrenheit to Celcius, Radius to Circumference, and the Pythagorean Theorem
-                </p>
             </div>
             <div class="image">
                 <a href="../projects/todo/index.html" target="_blank">
                 <img src="../images/project/todo.png" alt="to do list website">
                 <br>
                 To-Do List</a>
-                <p>
-                    Dynamic to-do list which stores and retrieves previous entries in Local Storage.
-                </p>
             </div>
             <div class="image">
                 <a href="../projects/spreadsheet/index.html" target="_blank">
                 <img src="../images/project/spreadsheet.png" alt="spreadsheet website">
                 <br>
                 Dynamic Spreadsheet</a>
-                <p>
-                    Add rows and columns to fill out your own spreadsheet on the web.
-                </p>
-            </div>
-            <div class="image">
-                <a href="../projects/css-box-model/index.html" target="_blank">
-                <img src="../images/project/boxmodel.png" alt="business page">
-                <br>
-                Acme Business Page - Proof of Concept - Using CSS Box Model</a>
-                <p>
-                </p>
             </div>
             <div class="image">
                 <a href="../projects/css-grid/index.html" target="_blank">
                 <img src="../images/project/cssgrid.png" alt="widget dashboard website">
                 <br>
                 Widget Dashboard - Proof of Concept - Using CSS Grid</a>
-                <p>
-                </p>
             </div>
             <div class="image">
                 <a href="../projects/css-flexbox/index.html" target="_blank">
                 <img src="../images/project/flexbox.png" alt="outer space pictures website">
                 <br>
                 Outer Space Page - Proof of Concept - Using CSS Flexbox</a>
-                <p>
-                </p>
             </div>
             <div class="image">
                 <a href="../projects/animations/index.html" target="_blank">
                 <img src="../images/project/mitosis.png" alt="css animation website">
                 <br>
                 Mitosis</a>
-                <p>
-                    Orange bubbles multiplying - using CSS animations.
-                </p>
             </div>
             <div class="image">
                 <a href="../projects/blog/index.html" target="_blank">
                 <img src="../images/project/blog.png" alt="blog website">
                 <br>
                 Blog</a>
-                <p>
-                    Create & comment on a blog with "Like" functionality.
-                </p>
             </div>
             <div class="image">
                 <a href="../projects/stop-light/index.html" target="_blank">
                 <img src="../images/project/stoplight.png" alt="stop light website">
                 <br>
                 Stop Light</a>
-                <p>
-                    The first web application I built; a functioning stop light.
-                </p>
             </div>
         </div>
-        <div id="professional" style="background-color:slategray;">
+        <div id="personal" class="personal" style="display:none;">
+            <div class="image">
+                <a href="https://graph-sense.herokuapp.com/" target="_blank">
+                <img src="../images/project/graphsense.png" alt="graph sense website">
+                <br>
+                GraphSense</a>
+            </div>
+            <div class="image">
+                <a href="https://github.com/eamoses/run-tracker-python" target="_blank">
+                <img src="../images/project/runtracker.png" alt="run tracker on github">
+                <br>
+                Python Run Tracker</a>
+            </div>
+            <div class="image">
+                <a href="https://protected-sea-74069.herokuapp.com/" target="_blank">
+                <img src="../images/project/petfinder.png" alt="lost pet website">
+                <br>
+                Lost Pet App</a>
+            </div>
+            <div class="image">
+                <a href="https://digestibleplastic.com/#home" target="_blank">
+                <img src="../images/project/digestibleplastic.png" alt="keto diet website">
+                <br>
+                Digestible Plastic</a>
+            </div>
+            <div class="image">
+                <a href="https://whispering-fortress-13524.herokuapp.com/" target="_blank">
+                <img src="../images/project/vagabond.png" alt="vagabond traveler website">
+                <br>
+                Vagabond App</a>
+            </div>
+            <div class="image">
+                <a href="../projects/drag-n-drop/index.html" target="_blank">
+                <img src="../images/project/dragndrop.png" alt="drag and drop photo website">
+                <br>
+                Drag 'n Drop Photo Website</a>
+            </div>
+            <div class="image">
+                <a href="../projects/circle-sudoku/index.html" target="_blank">
+                <img src="../images/project/circlesudoku.png" alt="sudoku game website">
+                <br>
+                Circle Sudoku</a>
+            </div>
+            <div class="image">
+                <a href="../projects/woodcrafters-design/index.html" target="_blank">
+                <img src="../images/project/woodcrafters.png" alt="woodcrafters design website">
+                <br>
+                WoodCrafters Design</a>
+            </div>
+            <div class="image">
+                <a href="../projects/typeface-race/index.html" target="_blank">
+                <img src="../images/project/typeface.png" alt="typeface race game website">
+                <br>
+                Typeface Race</a>
+            </div>
+            <div class="image">
+                <a href="../projects/calculator/index.html" target="_blank">
+                <img src="../images/project/calculators.png" alt="conversion calculator website">
+                <br>
+                Conversion Calculator</a>
+            </div>
+        </div>
+        <div id="professional" class="professional">
+            <div class="image">
+                <a href="https://www.linkedin.com/company/pair-programmers/about/" target="_blank">
+                <img src="../images/portfolio/pp-logo-cadetblue.png" alt="pair programmers" class="pp">
+                <br>
+                Software Engineer - Pair Programmers</a>
+            </div>
             <div class="image">
                 <a href="https://austincodingacademy.com/" target="_blank">
                 <img src="/images/professional/austincodingacademy.png" alt="aca website">
                 <br>
                 Software Engineer Instructor - ACA</a>
-                <p>
-                    Instructing aspiring developers on web development and engineering principles.<br>
-                    <br>
-                    • Git and GitHub workflow.<br>
-                    • Web development with JavaScript ES6.<br>
-                    • Architecting RESTful services with NodeJS.<br>
-                </p>
             </div>
             <div class="image">
                 <a href="https://www.homedepot.com/" target="_blank">
                 <img src="/images/professional/thehomedepot.png" alt="the home depot">
                 <br>
                 Software Engineer - The Home Depot</a>
-                <p>
-                    Developing enterprise software. <br>
-                    <br>
-                    • Python3 with SQL.<br>
-                    • Utilizing Golang for development.<br>
-                    • Git and GitHub development workflow.<br>
-                    • Web development with JavaScript ES6.<br>
-                </p>
             </div>
             <div class="image">
                 <a href="https://www.graymeta.com/enterprise/" target="_blank">
                 <img src="/images/professional/graymeta.png" alt="graymeta website">
                 <br>
                 Software Engineer - GrayMeta</a>
-                <p>
-                    Developed enterprise software consuming multiple APIs and utilizing Golang on the back end in creating API's to bring forth the most important pieces of metadata from images, video and documents.<br>
-                    <br>
-                    
-                </p>
             </div>
             <div class="image">
                 <a href="https://onlinemeded.org" target="_blank">
                 <img src="/images/professional/onlinemeded.png" alt="onlinemeded website">
                 <br>
                 Web Developer - OnlineMedEd</a>
-                <p>
-                    Re-created OnlineMedEd's existing landing page using JavaScript, HTML and CSS.
-                </p>
             </div>
             <div class="image">
                 <a href="https://www.aprilsix.com/" target="_blank">
                 <img src="/images/professional/aprilsix.png" alt="april six website">
                 <br>
                 Web Developer - April Six</a>
-                <p>
-                    Transformed advertising designs from images to interactive advertisments with HTML, CSS and JavaScript.
-                </p>
             </div>
             <div class="image">
                 <a href="https://generalassemb.ly/education/javascript-development?where=san-francisco" target="_blank">
                 <img src="/images/professional/generalassembly.png" alt="general assembly website">
                 <br>
                 JavaScript Instructor - General Assembly</a>
-                <p>
-                    Instructed aspiring front-end web developers in creating portfolio websites using JavaScript and various JS Frameworks.
-                </p>
             </div>
         </div>
     </div>
@@ -268,14 +188,31 @@
         var perTab = document.getElementById('perTab');
         if ( 'personal' === id ) {
             personal.style.display = 'flex';
-            perTab.style.backgroundColor = 'slategray';
+            perTab.style.fontWeight = '600';
             professional.style.display = 'none';
-            proTab.style.backgroundColor = 'cadetblue';
-        } else {
+            proTab.style.backgroundColor = 'transparent';
+            proTab.style.fontWeight = '300';
+            codepen.style.display = 'none';
+            penTab.style.backgroundColor = 'transparent';
+            penTab.style.fontWeight = '300';
+        } else if ( 'professional' === id ) {
             professional.style.display = 'flex';
-            proTab.style.backgroundColor = 'slategray';
+            proTab.style.fontWeight = '600';
             personal.style.display = 'none';
-            perTab.style.backgroundColor = 'cadetblue';
+            perTab.style.backgroundColor = 'transparent';
+            perTab.style.fontWeight = '300';
+            codepen.style.display = 'none';
+            penTab.style.backgroundColor = 'transparent';
+            penTab.style.fontWeight = '300';
+        } else {
+            codepen.style.display = 'flex';
+            penTab.style.fontWeight = '600';
+            personal.style.display = 'none';
+            perTab.style.backgroundColor = 'transparent';
+            perTab.style.fontWeight = '300';
+            professional.style.display = 'none';
+            proTab.style.backgroundColor = 'transparent';
+            proTab.style.fontWeight = '300';
         }
     }
 </script>

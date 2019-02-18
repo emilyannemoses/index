@@ -5,18 +5,20 @@
 }
 
 body {
-    background-color: cadetblue;
+    background-color: transparent;
+    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .header {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-bottom: 20px;
 }
 
 .logo {
@@ -35,59 +37,66 @@ a {
 .image a {
     font-size: 16px;
     font-weight: 600;
+    color: white;
 }
 
 .tabs {
-    margin-top: 20px;
+    margin-left: auto;
 }
 
 .tabs span {
-    border-right: 1px solid slategray;
-    border-left: 1px solid slategray;
-    border-top: 1px solid slategray;
+    border-right: 1px solid darkolivegreen;
+    border-left: 1px solid darkolivegreen;
+    border-top: 1px solid darkolivegreen;
+    border-bottom: 3px solid darkolivegreen;
     border-radius: 5px 5px 0px 0px;
     margin-left: 20px;
-    padding: 5px 5px 0px 5px;
+    padding: 5px;
     cursor: pointer;
 }
 
-#personal {
+.codepen {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
 }
 
-#professional {
+.personal {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
+}
+
+.professional {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
 }
 
 .image {
-    width: 400px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    padding: 10px;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
     text-align: center;
-    opacity: 0.9;
-    color:black;
+    color:white;
+    border-bottom: 3px solid darkolivegreen;
 }
 
 .image img {
-    border: 1px solid black;
-    width: 300px;
+    width: 350px;
+    border: 4px solid black;
 }
 
-p {
-    text-align: left;
-    padding: 40px;
-    border-bottom: 1px solid darkolivegreen;
-}
-
-.image:hover  {
-    opacity: 1;
+.image .pp {
+    width: 75%;
+    border-radius: 100%;
 }
 
 @media (max-width: 641px) {
@@ -96,14 +105,14 @@ p {
     }
     
     .tabs span {
-        border-right: 1px solid slategray;
-        border-left: 1px solid slategray;
-        border-top: 1px solid slategray;
+        border-right: 1px solid darkolivegreen;
+        border-left: 1px solid darkolivegreen;
+        border-top: 1px solid darkolivegreen;
         border-radius: 5px 5px 0px 0px;
         margin-left: 20px;
         padding-top: 5px;
         padding-right: 5px;
-        padding-bottom: 3px;
+        padding-bottom: 5px;
         padding-left: 5px;
         cursor: pointer;
         font-size: 9px;
@@ -111,6 +120,7 @@ p {
 
     .image img {
         width: 300px;
+        border: 2px solid black;
     }
 
 }
