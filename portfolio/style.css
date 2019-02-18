@@ -6,7 +6,7 @@
 
 body {
     background-color: transparent;
-    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
+    background: url(../images/portfolio/portfoliobackground.jpg) no-repeat center center fixed; 
 }
 
 a {
@@ -60,7 +60,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
+    background: url(../images/portfolio/portfoliobackground.jpg) no-repeat center center fixed; 
 }
 
 .personal {
@@ -68,7 +68,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
+    background: url(../images/portfolio/portfoliobackground.jpg) no-repeat center center fixed; 
 }
 
 .professional {
@@ -76,7 +76,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
+    background: url(../images/portfolio/portfoliobackground.jpg) no-repeat center center fixed; 
 }
 
 .image {
@@ -109,6 +109,7 @@ a {
         margin: 10px;
     }
     .tabs span {
+        width: 27vw;
         display: block;
         border-right: 3px solid darkolivegreen;
         border-left: 1px solid darkolivegreen;
@@ -121,27 +122,28 @@ a {
     }
 
     .codepen {
-        width: 60vw;
-        margin: 10px;
+        width: 55vw;
     }
 
     .personal {
-        width: 60vw;
-        margin: 10px;
+        width: 55vw;
     }
 
     .professional {
-        width: 60vw;
-        margin: 10px;
+        width: 55vw;
+    }
+
+    .image {
+        margin-bottom: 15px;
     }
 
     .image img {
-        width: 60vw;
+        width: 55vw;
         border: 3px solid black;
     }
 
     .image .pp {
-        width: 75%;
+        width: 70%;
     }
 
 }
