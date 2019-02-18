@@ -99,28 +99,46 @@ a {
     border-radius: 100%;
 }
 
-@media (max-width: 641px) {
+@media (max-width: 750px) {
     .tabs {
-        margin-top: 20px;
+        width: 30vw;
+        float: left;
+        margin: 10px;
     }
-    
     .tabs span {
-        border-right: 1px solid darkolivegreen;
+        display: block;
+        border-right: 3px solid darkolivegreen;
         border-left: 1px solid darkolivegreen;
         border-top: 1px solid darkolivegreen;
-        border-radius: 5px 5px 0px 0px;
-        margin-left: 20px;
-        padding-top: 5px;
-        padding-right: 5px;
-        padding-bottom: 5px;
-        padding-left: 5px;
+        border-bottom: 1px solid darkolivegreen;
+        border-radius: 5px 0px 0px 5px;
+        margin: 10px;
+        padding: 5px;
         cursor: pointer;
-        font-size: 9px;
+    }
+
+    .codepen {
+        width: 60vw;
+        margin: 10px;
+    }
+
+    .personal {
+        width: 60vw;
+        margin: 10px;
+    }
+
+    .professional {
+        width: 60vw;
+        margin: 10px;
     }
 
     .image img {
-        width: 300px;
-        border: 2px solid black;
+        width: 60vw;
+        border: 3px solid black;
+    }
+
+    .image .pp {
+        width: 75%;
     }
 
 }
