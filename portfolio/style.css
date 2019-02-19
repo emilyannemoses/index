@@ -6,7 +6,7 @@
 
 body {
     background-color: transparent;
-    background: url(../images/portfolio/portfoliobackground.jpg) no-repeat center center fixed; 
+    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
 }
 
 a {
@@ -60,7 +60,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background: url(../images/portfolio/portfoliobackground.jpg) no-repeat center center fixed; 
+    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
 }
 
 .personal {
@@ -68,7 +68,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background: url(../images/portfolio/portfoliobackground.jpg) no-repeat center center fixed; 
+    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
 }
 
 .professional {
@@ -76,7 +76,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background: url(../images/portfolio/portfoliobackground.jpg) no-repeat center center fixed; 
+    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
 }
 
 .image {
