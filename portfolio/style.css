@@ -54,7 +54,7 @@ a {
     cursor: pointer;
 }
 
-.codepen {
+.codepen1 {
     margin: auto;
     width: 100%;
     display: flex;
@@ -104,8 +104,8 @@ a {
     padding-bottom: 10px;
     text-align: center;
     border-bottom: 3px solid darkolivegreen;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 300;
     color: white;
 }
 
@@ -128,7 +128,7 @@ a {
         cursor: pointer;
     }
 
-    .codepen {
+    .codepen1 {
         width: 55vw;
     }
 

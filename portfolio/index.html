@@ -25,8 +25,8 @@
                 <span onclick="toggle_visibility('personal');" style="color:white;" id="perTab" class="perTab">Personal Projects</span>
                 <span onclick="toggle_visibility('codepen');" style="color:white;" id="penTab" class="penTab">CodePen Playground</span>
             </div>
-            <div id="codepen" class="codepen" style="display:none;">
-                <div class="pen">
+            <div id="codepen" class="codepen1" style="display:none;">
+                <!-- <div class="pen">
                     <iframe height="500px" style="width: 100vw;" scrolling="no" title="Artboard" src="//codepen.io/emilyannemoses/embed/jdXmmE/?height=265&theme-id=0&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
                         See the Pen <a href='https://codepen.io/emilyannemoses/pen/jdXmmE/'>Artboard</a> by Emily Anne Moses
                         (<a href='https://codepen.io/emilyannemoses'>@emilyannemoses</a>) on <a href='https://codepen.io'>CodePen</a>.
@@ -89,7 +89,7 @@
                     </iframe>
                     <br>
                     Stop Light
-                </div>
+                </div> -->
             </div>
             <div id="personal" class="personal" style="display:none;">
                 <div class="image">
@@ -199,39 +199,40 @@
             </div>
         </div>
     </div>
-</body>
-<script type="text/javascript">
-    function toggle_visibility(id) {
-        var proTab = document.getElementById('proTab');
-        var perTab = document.getElementById('perTab');
-        if ( 'personal' === id ) {
-            personal.style.display = 'flex';
-            perTab.style.fontWeight = '600';
-            professional.style.display = 'none';
-            proTab.style.backgroundColor = 'transparent';
-            proTab.style.fontWeight = '300';
-            codepen.style.display = 'none';
-            penTab.style.backgroundColor = 'transparent';
-            penTab.style.fontWeight = '300';
-        } else if ( 'professional' === id ) {
-            professional.style.display = 'flex';
-            proTab.style.fontWeight = '600';
-            personal.style.display = 'none';
-            perTab.style.backgroundColor = 'transparent';
-            perTab.style.fontWeight = '300';
-            codepen.style.display = 'none';
-            penTab.style.backgroundColor = 'transparent';
-            penTab.style.fontWeight = '300';
-        } else {
-            codepen.style.display = 'flex';
-            penTab.style.fontWeight = '600';
-            personal.style.display = 'none';
-            perTab.style.backgroundColor = 'transparent';
-            perTab.style.fontWeight = '300';
-            professional.style.display = 'none';
-            proTab.style.backgroundColor = 'transparent';
-            proTab.style.fontWeight = '300';
+    <script type="text/javascript">
+        function toggle_visibility(id) {
+            var proTab = document.getElementById('proTab');
+            var perTab = document.getElementById('perTab');
+            if ( 'personal' === id ) {
+                personal.style.display = 'flex';
+                perTab.style.fontWeight = '600';
+                professional.style.display = 'none';
+                proTab.style.backgroundColor = 'transparent';
+                proTab.style.fontWeight = '300';
+                codepen.style.display = 'none';
+                penTab.style.backgroundColor = 'transparent';
+                penTab.style.fontWeight = '300';
+            } else if ( 'professional' === id ) {
+                professional.style.display = 'flex';
+                proTab.style.fontWeight = '600';
+                personal.style.display = 'none';
+                perTab.style.backgroundColor = 'transparent';
+                perTab.style.fontWeight = '300';
+                codepen.style.display = 'none';
+                penTab.style.backgroundColor = 'transparent';
+                penTab.style.fontWeight = '300';
+            } else {
+                codepen.style.display = 'flex';
+                penTab.style.fontWeight = '600';
+                personal.style.display = 'none';
+                perTab.style.backgroundColor = 'transparent';
+                perTab.style.fontWeight = '300';
+                professional.style.display = 'none';
+                proTab.style.backgroundColor = 'transparent';
+                proTab.style.fontWeight = '300';
+            }
         }
-    }
-</script>
+    </script>
+    <script src="./app.js"></script>
+</body>
 </html>
