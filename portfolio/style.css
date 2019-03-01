@@ -5,12 +5,7 @@
 }
 
 body {
-    background-color: transparent;
-    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-color: slategray;
 }
 
 a {
@@ -61,14 +56,10 @@ a {
 
 .codepen {
     margin: auto;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .personal {
@@ -76,11 +67,6 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .professional {
@@ -88,11 +74,6 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background: url(../images/portfolio/background.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 .image {
@@ -101,7 +82,6 @@ a {
     margin-bottom: 20px;
     padding-bottom: 10px;
     text-align: center;
-    color:white;
     border-bottom: 3px solid darkolivegreen;
     font-size: 16px;
     font-weight: 600;
@@ -116,6 +96,17 @@ a {
 .image .pp {
     width: 50%;
     border-radius: 100%;
+}
+
+.pen {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 3px solid darkolivegreen;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
 }
 
 @media (max-width: 750px) {
