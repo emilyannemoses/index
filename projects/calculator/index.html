@@ -5,48 +5,43 @@
     <title>Calculators</title>
     <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style.css" media="screen">
-<header>
-  Emily's Conversion Calculators
-</header>
 </head>
 <body>
+  <div class="container">
+    <div class="calculator">
     <h1>Fahrenheit to Celcius</h1>
-
     <div class="panel temp">
-      <input type="text" class="temp-f" placeholder="℉">⇄
-      <input type="text" class="temp-c" placeholder="℃">
+      <input type="text" class="temp-f" placeholder="℉"> ⇄ <input type="text" class="temp-c" placeholder="℃">
     </div>
+  </div>
 
+  <div class="calculator">
     <h1>Radius to Circumference</h1>
-
     <div class="panel circum">
       <div class="circle">
       </div>
       <input type="text" class="circum-r" placeholder="radius">
       <input type="text" class="circum-c" placeholder="circumference" disabled>
     </div>
+  </div>
 
+  <div class="calculator">
     <h1>Pythagorean Theorem</h1>
-    <p>
-      <ul>
-        <li>
-      To get the hypotenuse (C): Insert a number in B, then insert a number in A.
-    </li>
-    <li>
-      To calculate side A: Insert a number in C, then insert a number in B.
-    </li>
-    <li>
-      To calcuate side B: Insert a number in A, then insert a number in C.
-    </li>
-  </ul>
-    </p>
+      <div class="instructions">
+        <b class="bold">To get the hypotenuse (C):</b> Insert a number in B, then insert a number in A.
+        <br><br>
+        <b class="bold">To calculate side A:</b> Insert a number in C, then insert a number in B.
+        <br><br>
+        <b class="bold">To calcuate side B:</b> Insert a number in A, then insert a number in C.
+    </div>
 
     <div class="panel py">
       <input type="text" class="py-a" placeholder="A">
       <input type="text" class="py-b" placeholder="B">
       <input type="text" class="py-c" placeholder="C">
     </div>
-
+  </div>
+  </div>
     <script type="text/javascript" src="./app.js"></script>
     <script type="text/javascript">
     function calcFahrenheitToCelcius(F) {
