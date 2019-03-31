@@ -30,7 +30,7 @@ header > .nav-link {
 }
 
 .container {
-  height: 700px;
+  height: auto;
   width: auto;
   display: grid;
   grid-template-columns: auto 1fr auto;
@@ -40,6 +40,7 @@ header > .nav-link {
                         "h1 h1 h1"
                         "h2 h2 h2"
                         "button button button";
+  margin: 10% auto;
 }
 
 a {
@@ -59,6 +60,7 @@ h1 {
   grid-area: h1;
   color:white;
   margin: auto;
+  height: 50px;
 }
 
 h2 {
@@ -67,6 +69,7 @@ h2 {
   font-style: italic;
   color: white;
   background: transparent;
+  height: 50px;
 }
 
 .button {
