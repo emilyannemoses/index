@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <a href="https://www.youtube.com/channel/UC1KWh0a9PP7Mk5EbVLD1rpQ" target="_blank">
+            <a href="#" target="_blank">
                 <img src="../images/portfolio/pp-logo-purple.png" class="logo" alt="pair programmers logo">
             </a>
             <a class="nav-link" href="../images/resume/emilyannemoses-resume-2019.pdf" target="_blank">Resume</a>
@@ -21,13 +21,32 @@
         <div class="device-container">
             <div class="tabs">
                 <span><a href="/index.html" class="homeTab">&larr; Home</a></span>
-                <!-- <span onclick="toggle_visibility('professional');" style="background-color:transparent;font-weight:600;color:white;" id="proTab" class="proTab">Professional Experience</span> -->
-                <span onclick="toggle_visibility('personal');" style="background-color:transparent;font-weight:600;color:white;" id="perTab" class="perTab">Personal Projects</span>
-                <span onclick="toggle_visibility('codepen');"  style="color:white;" id="penTab" class="penTab">CodePen Playground</span>
+                <span onclick="toggle_visibility('personal');" style="color:white;" id="perTab" class="perTab">Personal Projects</span>
+                <span onclick="toggle_visibility('codepen');"  style="background-color:transparent;font-weight:600;color:white;" id="penTab" class="penTab">CodePen Playground</span>
             </div>
-            <div id="codepen" class="codepen1" style="display:none;">
+            <div id="codepen" class="codepen1">
+                <iframe height="450" style="width: 100%;margin-top: 25px;" scrolling="no" title="HTML5 AudioAPI Example using vanilla JavaScript" src="//codepen.io/emilyannemoses/embed/QoyGZo/?height=265&theme-id=0&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href='https://codepen.io/emilyannemoses/pen/QoyGZo/'>HTML5 AudioAPI Example using vanilla JavaScript</a> by Emily Anne Moses
+                    (<a href='https://codepen.io/emilyannemoses'>@emilyannemoses</a>) on <a href='https://codepen.io'>CodePen</a>.
+                </iframe>
+                <iframe height="450" style="width: 100%;margin-top: 25px;" scrolling="no" title="JavaScript To-do List using Local Storage" src="//codepen.io/emilyannemoses/embed/jdXmGP/?height=265&theme-id=0&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href='https://codepen.io/emilyannemoses/pen/jdXmGP/'>JavaScript To-do List using Local Storage</a> by Emily Anne Moses
+                    (<a href='https://codepen.io/emilyannemoses'>@emilyannemoses</a>) on <a href='https://codepen.io'>CodePen</a>.
+                </iframe>
+                <iframe height="450" style="width: 100%;margin-top: 25px;" scrolling="no" title="Filtered text search using JavaScript" src="//codepen.io/emilyannemoses/embed/VRGzyw/?height=265&theme-id=0&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href='https://codepen.io/emilyannemoses/pen/VRGzyw/'>Filtered text search using JavaScript</a> by Emily Anne Moses
+                    (<a href='https://codepen.io/emilyannemoses'>@emilyannemoses</a>) on <a href='https://codepen.io'>CodePen</a>.
+                </iframe>
+                <iframe height="450" style="width: 100%;margin-top: 25px;" scrolling="no" title="Pintrest-style card with responsiveness" src="//codepen.io/emilyannemoses/embed/EMGRjR/?height=265&theme-id=0&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href='https://codepen.io/emilyannemoses/pen/EMGRjR/'>Pintrest-style card with responsiveness</a> by Emily Anne Moses
+                    (<a href='https://codepen.io/emilyannemoses'>@emilyannemoses</a>) on <a href='https://codepen.io'>CodePen</a>.
+                </iframe>
+                <iframe height="450" style="width: 100%;margin-top: 25px;" scrolling="no" title="Dynamic Blog using Local Storage" src="//codepen.io/emilyannemoses/embed/zeywRd/?height=265&theme-id=0&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+                    See the Pen <a href='https://codepen.io/emilyannemoses/pen/zeywRd/'>Dynamic Blog using Local Storage</a> by Emily Anne Moses
+                    (<a href='https://codepen.io/emilyannemoses'>@emilyannemoses</a>) on <a href='https://codepen.io'>CodePen</a>.
+                </iframe>
             </div>
-            <div id="personal" class="personal">
+            <div id="personal" class="personal" style="display:none;">
                 <div class="image">
                     <a href="https://eamoses.github.io/widget-dashboard/" target="_blank">
                     <img src="../images/project/dashboard.png" alt="widget dashbaord website">
@@ -77,102 +96,27 @@
                     WoodCrafters Design</a>
                 </div>
             </div>
-            <!-- <div id="professional" class="professional">
-                <div class="image">
-                    <a href="https://www.linkedin.com/company/pair-programmers/about/" target="_blank">
-                    <img src="../images/portfolio/pp-logo-cadetblue.png" alt="pair programmers" class="pp">
-                    <br>
-                    Software Engineer
-                    <br>@<br>
-                    Pair Programmers</a>
-                </div>
-                <div class="image">
-                    <a href="https://austincodingacademy.com/" target="_blank">
-                    <img src="/images/professional/austincodingacademy.png" alt="aca website">
-                    <br>
-                    Software Engineer Instructor
-                    <br>@<br>
-                    Austin Coding Academy</a>
-                </div>
-                <div class="image">
-                    <a href="https://www.homedepot.com/" target="_blank">
-                    <img src="/images/professional/thehomedepot.png" alt="the home depot">
-                    <br>
-                    Software Engineer
-                    <br>@<br>
-                    The Home Depot</a>
-                </div>
-                <div class="image">
-                    <a href="https://www.graymeta.com/enterprise/" target="_blank">
-                    <img src="/images/professional/graymeta.png" alt="graymeta website">
-                    <br>
-                    Software Engineer
-                    <br>@<br>
-                    GrayMeta</a>
-                </div>
-                <div class="image">
-                    <a href="https://onlinemeded.org" target="_blank">
-                    <img src="/images/professional/onlinemeded.png" alt="onlinemeded website">
-                    <br>
-                    Web Developer
-                    <br>@<br>
-                    OnlineMedEd</a>
-                </div>
-                <div class="image">
-                    <a href="https://www.aprilsix.com/" target="_blank">
-                    <img src="/images/professional/aprilsix.png" alt="april six website">
-                    <br>
-                    Web Developer
-                    <br>@<br>
-                    April Six</a>
-                </div>
-                <div class="image">
-                    <a href="https://generalassemb.ly/education/javascript-development?where=san-francisco" target="_blank">
-                    <img src="/images/professional/generalassembly.png" alt="general assembly website">
-                    <br>
-                    JavaScript Instructor
-                    <br>@<br>
-                    General Assembly</a>
-                </div>
-            </div> -->
         </div>
     </div>
     <script type="text/javascript">
         function toggle_visibility(id) {
-            // var proTab = document.getElementById('proTab');
             var perTab = document.getElementById('perTab');
             if ( 'personal' === id ) {
                 personal.style.display = 'flex';
                 perTab.style.fontWeight = '600';
-                // professional.style.display = 'none';
-                // proTab.style.backgroundColor = 'transparent';
-                // proTab.style.fontWeight = '300';
                 codepen.style.display = 'none';
                 penTab.style.backgroundColor = 'transparent';
                 penTab.style.fontWeight = '300';
-            } 
-            // else if ( 'professional' === id ) {
-            //     professional.style.display = 'flex';
-            //     proTab.style.fontWeight = '600';
-            //     personal.style.display = 'none';
-            //     perTab.style.backgroundColor = 'transparent';
-            //     perTab.style.fontWeight = '300';
-            //     codepen.style.display = 'none';
-            //     penTab.style.backgroundColor = 'transparent';
-            //     penTab.style.fontWeight = '300';
-            // } 
+            }
             else {
                 codepen.style.display = 'flex';
                 penTab.style.fontWeight = '600';
                 personal.style.display = 'none';
                 perTab.style.backgroundColor = 'transparent';
                 perTab.style.fontWeight = '300';
-                // professional.style.display = 'none';
-                // proTab.style.backgroundColor = 'transparent';
-                // proTab.style.fontWeight = '300';
             }
         }
     </script>
-    <script src="./app.js"></script>
+    <!-- <script src="./app.js"></script> -->
 </body>
 </html>
