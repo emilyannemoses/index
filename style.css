@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     color:  rgb(25,28,32);
     font-family: 'Courier New', Courier, monospace;
@@ -31,6 +34,7 @@ header a {
     cursor: pointer;
     background-color: rgb(73, 88, 103);
     color: rgb(216, 219, 226);
+    position: absolute;
 }
 .guate:hover:before {
     padding: 10px;
@@ -38,6 +42,7 @@ header a {
     cursor: pointer;
     background-color: rgb(73, 88, 103);
     color: rgb(216, 219, 226);
+    position: absolute;
 }
 .us:hover:before {
     padding: 10px;
@@ -45,6 +50,7 @@ header a {
     cursor: pointer;
     background-color: rgb(73, 88, 103);
     color: rgb(216, 219, 226);
+    position: absolute;
 }
 a {
     padding: 10px;
@@ -59,10 +65,10 @@ a {
 }
 .icon:hover {
     border: 1px solid rgb(99, 133, 189);
+    padding: 9px;
 }
 .icon img {
     vertical-align: middle;
-    position: relative;
 }
 .footer {
     text-align: center;
