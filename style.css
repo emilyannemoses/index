@@ -1,133 +1,28 @@
-* {
-  font-weight: 300;
-  font-family: Avenir;
+body {
+    margin: 20px auto;
+    color:  rgb(25,28,32);
 }
-
-/* CSS Patterns Gallery: https://leaverou.github.io/css3patterns/ */
-html {
-  background:
-  linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-  linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-  linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-  linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-  linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-  linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
-  background-color: #131313;
-  background-size: 20px 20px;
+header a{
+    font-size: 22px;
 }
-
-.logo {
-  height: 25px;
-  width: 25px;
-  padding-right: 20px;
-  padding-top: 5px;
-}
-
-header {
-  display: flex;
-  align-items: center;
-}
-
-header > .nav-link {
-  padding-right: 20px;
-  font-size: 14px;
-}
-
-.container {
-  height: auto;
-  width: auto;
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  grid-template-rows: auto auto auto auto;
-  grid-template-areas:
-                        "pic pic pic"
-                        "h1 h1 h1"
-                        "h2 h2 h2"
-                        "button button button";
-  margin: 10% auto;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-.profile-pic {
-  grid-area: pic;
-  width: 150px;
-  height: 200px;
-  border: 10px solid white;
-  margin: auto;
-}
-
-h1 {
-  grid-area: h1;
-  color:white;
-  margin: auto;
-  height: 50px;
-}
-
-h2 {
-  grid-area: h2;
-  margin: auto;
-  font-style: italic;
-  color: white;
-  background: transparent;
-  height: 50px;
-}
-
-.button {
-  grid-area: button;
-  margin: auto;
-  padding: 5px;
-  width: auto;
-  height: auto;
-  font-size: 20px;
-  background: transparent;
-  color: white;
-  letter-spacing: 10px;
-  font-style: italic;
-  border: 10px solid white;
-}
-
-@media (max-width: 860px) {
-  .logo {
-    width: 25px;
-    height: 25px;
-  }
-
-  .profile-pic {
-    grid-area: pic;
-    width: 150px;
-    height: 200px;
-    border: 10px solid white;
-    margin: auto;
-  }
-
-  h1 {
-    grid-area: h1;
-    color:white;
-    margin: auto;
-  }
-
-  h2 {
-    grid-area: h2;
-    margin: auto;
-    font-style: italic;
-    color: white;
-    background: transparent;
-  }
-
-  .button {
-    width: auto;
-    height: auto;
-    font-family: Avenir;
+.headline {
     font-size: 20px;
-    background: transparent;
-    color: white;
-    letter-spacing: 10px;
-    font-style: italic;
-    border: 10px solid white;
-    margin: auto;
-    }
+}
+.container {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+.text {
+    font-size: 18px;
+}
+a {
+    padding: 10px;
+    color: rgb(73,88,103);
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+a:hover {
+    background-color: rgb(73, 88, 103);
+    color: rgb(216, 219, 226);
 }
