@@ -1,19 +1,50 @@
 body {
-    margin: 20px 50px;
     color:  rgb(25,28,32);
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: grid;
 }
 header a{
-    font-size: 22px;
+    font-size: 26px;
+}
+.top {
+    text-align: center;
 }
 .headline {
-    font-size: 20px;
+    font-size: 26px;
 }
 .container {
-    font-family: 'Courier New', Courier, monospace;
-    text-align: right;
+    margin: auto;
 }
 .text {
     font-size: 18px;
+}
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+.egypt:hover:before {
+    padding: 10px;
+    content: "Egypt";
+    cursor: pointer;
+    background-color: rgb(73, 88, 103);
+    color: rgb(216, 219, 226);
+}
+.guate:hover:before {
+    padding: 10px;
+    content: "Guatemala";
+    cursor: pointer;
+    background-color: rgb(73, 88, 103);
+    color: rgb(216, 219, 226);
+}
+.us:hover:before {
+    padding: 10px;
+    content: "United States";
+    cursor: pointer;
+    background-color: rgb(73, 88, 103);
+    color: rgb(216, 219, 226);
 }
 a {
     padding: 10px;
@@ -25,4 +56,7 @@ a {
 a:hover {
     background-color: rgb(73, 88, 103);
     color: rgb(216, 219, 226);
+}
+.footer {
+    text-align: center;
 }
