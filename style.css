@@ -1,10 +1,10 @@
 body {
     color:  rgb(25,28,32);
     font-family: 'Courier New', Courier, monospace;
-    height: 100vh;
+    height: 90vh;
     display: grid;
 }
-header a{
+header a {
     font-size: 26px;
 }
 .top {
@@ -53,9 +53,16 @@ a {
     letter-spacing: 1px;
     cursor: pointer;
 }
-a:hover {
+.link:hover {
     background-color: rgb(73, 88, 103);
     color: rgb(216, 219, 226);
+}
+.icon:hover {
+    border: 1px solid rgb(99, 133, 189);
+}
+.icon img {
+    vertical-align: middle;
+    position: relative;
 }
 .footer {
     text-align: center;
