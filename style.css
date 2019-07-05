@@ -10,6 +10,9 @@ body {
 header a {
     font-size: 26px;
 }
+h1, h2, h3 {
+    margin: 0;
+}
 .top {
     text-align: center;
 }
